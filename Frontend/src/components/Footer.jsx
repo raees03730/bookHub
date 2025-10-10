@@ -5,7 +5,7 @@ function Footer() {
     <div className="w-full bg-gray-100 border-t border-gray-300 py-8 mt-10 dark:bg-slate-900 dark:text-white">
       <div className="max-w-6xl mx-auto px-4">
         
-        {/* Line 1 - Navigation Links */}
+
         <div className="flex justify-center mb-6 ">
           <nav className="flex flex-wrap justify-center gap-4 md:gap-8">
             <a className="text-gray-700 hover:text-pink-600 text-sm md:text-base font-medium cursor-pointer">About us</a>
@@ -15,7 +15,7 @@ function Footer() {
           </nav>
         </div>
 
-        {/* Line 2 - Social Icons */}
+        
         <div className="flex justify-center mb-6">
           <div className="flex gap-6 md:gap-8">
             <a className="cursor-pointer hover:scale-110 transition-transform">
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Line 3 - Copyright */}
+        
         <div className="text-center">
           <p className="text-gray-600 text-xs md:text-sm">
             Raees © {new Date().getFullYear()} - All right reserved by Raees Industries Ltd

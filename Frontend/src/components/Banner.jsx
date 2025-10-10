@@ -28,7 +28,7 @@ function Banner() {
             </label>
           
           </div>
-          <button className="btn mt-6 bg-pink-600 text-white hover:bg-pink-600">Secondary</button>
+          <button className="btn mt-6 bg-pink-600 text-white hover:bg-pink-600 btn-secondary rounded-md">Get Started</button>
         
         </div>
         <div className="order-1 w-full md:w-1/2 md:ml-20 flex justify-center items-center ">
