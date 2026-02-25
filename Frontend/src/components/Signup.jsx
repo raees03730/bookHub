@@ -27,7 +27,7 @@ function Signup() {
         password: data.password,
       };
       
-      const res = await axios.post("http://localhost:4001/user/signup", userInfo);
+      const res = await axios.post("https://bookhub-backend-g1iq.onrender.com/user/signup", userInfo);
       console.log(res.data);
       
       if (res.data) {
@@ -55,7 +55,7 @@ function Signup() {
         password: data.password,
       };
       
-      const res = await axios.post("http://localhost:4001/user/login", loginInfo);
+      const res = await axios.post("https://bookhub-backend-g1iq.onrender.com/user/login", loginInfo);
       console.log(res.data);
       
       if (res.data) {
