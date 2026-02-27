@@ -32,6 +32,10 @@ try {
 app.use("/api/book", bookRoute);
 app.use("/api/user", userRoute);
 
+app.get("/", (req, res) => {
+    res.send("BookHub Backend API is running!");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is  listening on port ${PORT}`)
 });
