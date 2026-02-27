@@ -20,7 +20,7 @@ function Login() {
         password: data.password,
       };
       
-      const res = await axios.post("https://bookhub-backend-vav0.onrender.com/user/login", userInfo);
+      const res = await axios.post("https://bookhub-backend-vav0.onrender.com/api/user/login", userInfo);
       console.log(res.data);
       
       if (res.data) {
