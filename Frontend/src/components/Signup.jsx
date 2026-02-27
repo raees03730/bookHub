@@ -55,7 +55,7 @@ function Signup() {
         password: data.password,
       };
       
-      const res = await axios.post(https://bookhub-backend-vav0.onrender.com/user/login", loginInfo);
+      const res = await axios.post("https://bookhub-backend-vav0.onrender.com/user/login", loginInfo);
       console.log(res.data);
       
       if (res.data) {
